@@ -4,7 +4,7 @@ description: Use meta tags to set page info for SEO
 
 # SEO & `<meta>` tags
 
-Search Engine Optimization is a dark art that some folks dedicate their entire lives to. We've add a couple of features to Redwood to make HTML-based SEO fairly simple.
+Search Engine Optimization is a dark art that some folks dedicate their entire lives to. We've added a couple of features to Redwood to make HTML-based SEO fairly simple.
 
 ## Adding a Title
 
@@ -23,7 +23,7 @@ It will also be used for the title template.
 
 ### Title Template
 
-Now that you have the app title set, you probably want some consistence with the page title, that's what the title template is for.
+Now that you have the app title set, you probably want consistency with the page title, that's what the title template is for.
 
 Add `titleTemplate` as a prop for `RedwoodProvider` to have a title template for every page.
 
@@ -74,7 +74,7 @@ Prior to Redwood 6.6.0 this component was called `<MetaTags>` and had several sp
 
 Redwood uses [react-helmet-async](https://github.com/staylor/react-helmet-async) underneath, which will use the tags furthest down your component tree.
 
-For example, if you set title in your Layout, and a title in your Page, it'll render the one in Page - this way you can override the tags you wish, while sharing the tags defined in Layout.
+For example, if you set title in your Layout, and a title in your Page, it'll render the one in Page - this way you can override the tags as you wish, while sharing the tags defined in Layout.
 
 :::info Bots & `<meta>` Tags
 
